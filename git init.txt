@@ -1,0 +1,37 @@
+git init
+
+git config --global user.name "KLU"
+
+git config --global user.email "d.ramyakrishna@klh.edu.in"
+
+git add hello.txt
+
+git commit -m "file created"
+
+git remote add origin https://github.com/RamyaKrishna528/FEDF.git
+
+git push -u origin master
+
+
+To Create new branch
+
+git branch dev-branch
+
+git checkout dev-branch
+
+git checkout master
+
+To merge with dev-branch
+
+git merge dev-branch
+
+git checkout dev-branch
+
+git add test.txt
+
+git commit -m "file test.txt created"
+
+git checkout dev-branch
+
+git push -u origin dev-branch
+
